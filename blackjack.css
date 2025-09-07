@@ -1,0 +1,59 @@
+body {
+    background-image: url("Images/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:white;
+}
+
+#dealer-cards img {
+    height: 250px;
+    width: 175px;
+    margin: 10px;
+}
+
+#your-cards img {
+    height: 250px;
+    width: 175px;
+    margin: 10px;
+}
+
+#hit-button {
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    margin:10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+#stay-button {
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    margin:10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+#restart-button {
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    margin:10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+#hit-button:hover:not(:disabled),
+#stay-button:hover:not(:disabled),
+#restart-button:hover:not(:disabled) {
+    background-color: purple;
+    transition: 0.7s;
+    color: whitesmoke;
+}
+
